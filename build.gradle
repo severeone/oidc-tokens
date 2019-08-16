@@ -1,6 +1,7 @@
 plugins {
     id 'java-library'
     id 'net.thauvin.erik.gradle.semver' version '1.0.0'
+    id 'com.jfrog.artifactory' version '4.9.8'
 }
 
 group 'co.kernelnetworks.oidc.auth'
