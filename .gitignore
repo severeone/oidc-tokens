@@ -110,4 +110,4 @@ fabric.properties
 .idea/modules.xml
 .idea/sbt.xml
 .idea/vcs.xml
-case-auth-tokens.iml
+oidc-tokens.iml
