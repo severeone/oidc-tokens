@@ -4,8 +4,8 @@ plugins {
     id 'com.jfrog.artifactory' version '4.9.8'
 }
 
-group 'co.kernelnetworks.oidc.auth'
-description 'Case OpenID Connect Tokens Library'
+group 'severeone.oidc'
+description 'OpenID Connect Tokens Library'
 
 apply plugin: 'maven'
 
@@ -49,11 +49,11 @@ jar {
 }
 
 javadoc {
-    options.windowTitle("co.kernelnetworks:" + project.name + ":" + versionProps.getProperty('version.semver') + " API Doc")
-    options.docTitle("Case Medical Research OpenID Connect Tokens v" + project.version)
-    options.bottom("Copyright &copy; 2019 Kernel Networks Inc. All rights reserved.")
+    options.windowTitle("Eugene Azarenko:" + project.name + ":" + versionProps.getProperty('version.semver') + " API Doc")
+    options.docTitle("OpenID Connect Tokens v" + project.version)
+    options.bottom("Copyright &copy; 2020 Eugene Azarenko. All rights reserved.")
     options.links("https://docs.oracle.com/javase/10/docs/api/")
-    options.overview("src/main/java/co/kernelnetworks/oidc/auth/tokens/overview.html")
+    options.overview("src/main/java/severeone/oidc/auth/tokens/overview.html")
 }
 
 test {
